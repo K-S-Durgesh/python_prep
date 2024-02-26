@@ -2,11 +2,14 @@
 #Date  : Feb-25-2024
 
 
-set -x
-set -e
-#set -o pipeline
+# Create a Directory
+
+mkdir bash-practice
+
+# Create a file
+
+touch class-1
 
 
-nproc 
 
-free
+
