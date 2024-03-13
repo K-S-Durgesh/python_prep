@@ -1,0 +1,12 @@
+ ssh -i /home/durgesh_devops/devop_ec2.pem
+
+
+Step 1:ssh ubuntu@Public IPv4 address, and enter.
+Step 2: Say 'yes' for fingerprint
+Step 3: Provide key value pair with the command ( ssh -i file location)
+# Example: ssh -i /home/durgesh_devops/devop_ec2.pem ubuntu@Public IPv4 address
+
+Step 4: Keep the permision closed with the cammond (chmod 600 /home/durgesh_devops/devop_ec2.pem)
+
+Step 5: Now directly run the command (  ssh -i /home/durgesh_devops/devop_ec2.pem ubuntu@Public IPv4 address)
+
